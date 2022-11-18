@@ -15,6 +15,7 @@ if(args.h){
     -d 0-6        Day to retrieve weather: 0 is today; defaults to 1. \n\
     -j            Echo pretty JSON from open-meteo API and exit.'
     );
+    process.exit(0);
 }
 
 var latitude = args.n || args.s * -1;;
