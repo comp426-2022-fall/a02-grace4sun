@@ -7,7 +7,7 @@
     "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
   },
   "author": "Grace Sun",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "GPL-3.0-or-later",
   "bin": {
     "galosh.js": "./cli.js"
   },
